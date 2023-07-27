@@ -12,7 +12,7 @@ function aleatoireMessage() {
         } else if (sujetAleatoire === 'Inspiration') {
           messageAleatoire = inspiration[Math.floor(Math.random() * inspiration.length)];
         } else if (sujetAleatoire === 'Blague') {
-          messageAleatoire = blagues[Math.floor(Math.random() * blague.length)];
+          messageAleatoire = blague[Math.floor(Math.random() * blague.length)];
         }
       
         return `Sujet: ${sujetAleatoire}\nMessage: ${messageAleatoire}`;
